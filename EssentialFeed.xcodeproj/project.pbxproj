@@ -11,6 +11,7 @@
 		2FDFD053296F140E00C23098 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDFD048296F140E00C23098 /* EssentialFeed.framework */; };
 		2FDFD058296F140E00C23098 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDFD057296F140E00C23098 /* EssentialFeedTests.swift */; };
 		2FDFD059296F140E00C23098 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDFD04B296F140E00C23098 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FDFD065296F5EF800C23098 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDFD064296F5EF800C23098 /* RemoteFeedLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2FDFD04C296F140E00C23098 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
 		2FDFD052296F140E00C23098 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDFD057296F140E00C23098 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
+		2FDFD064296F5EF800C23098 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2FDFD057296F140E00C23098 /* EssentialFeedTests.swift */,
+				2FDFD064296F5EF800C23098 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDFD065296F5EF800C23098 /* RemoteFeedLoaderTests.swift in Sources */,
 				2FDFD058296F140E00C23098 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
