@@ -1,6 +1,6 @@
 //
 //  FeedItem.swift
-//  EssentialFeed
+//  
 //
 //  Created by Cory Tepper on 1/11/23.
 //
